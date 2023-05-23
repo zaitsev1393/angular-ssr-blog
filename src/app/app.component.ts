@@ -7,7 +7,7 @@ import { Meta, Title } from '@angular/platform-browser';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  template: `X`,
+  template: `xXx`,
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
@@ -18,6 +18,11 @@ export class AppComponent {
     this.metaTagService.addTags([
       { name: 'robots', content: 'index, follow' },
       { name: 'author', content: 'Glib Zaycev' },
+      {
+        name: 'og:image',
+        content:
+          'https://3dnews.ru/assets/external/illustrations/2018/06/26/971746/01.jpg',
+      },
       { name: 'description', content: 'Glib Zaycev | Arrested Developer' },
     ]);
   }
