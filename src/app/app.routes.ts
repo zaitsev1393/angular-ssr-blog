@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { BlogListComponent } from './blog/list.component';
-import { AboutComponent } from './about/about.componen';
+import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
   {
